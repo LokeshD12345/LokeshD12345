@@ -1,0 +1,11 @@
+public class Equals {
+    public static void main(String[] args) {
+        String a="Lokesh";
+        String b="Lokesh";
+        String c="Dinesh";
+        String d="Dinesh";
+        System.out.println(a.equals(b)); // true
+        System.out.println(c.equals(d)); // true
+        System.out.println(a.equals(d)); //false
+    }
+}
