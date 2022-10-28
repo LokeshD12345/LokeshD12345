@@ -1,0 +1,14 @@
+public class str {
+
+    public static void main(String[] args) {
+        String s="Lokesh";
+        String u="";
+        System.out.println(s.isEmpty());
+        System.out.println(u.isEmpty());
+
+        String t="Lokesh";
+        String v=" ";
+        System.out.println(s.isEmpty());
+        System.out.println(v.isEmpty());
+    }
+}
